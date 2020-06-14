@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  task:
+    build: .
+    container_name: php
+    ports:
+      - '80:80'
+      - '8000:8000'
+    volumes:
+      - ./:/var/www/html
+

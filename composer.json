@@ -1,0 +1,24 @@
+{
+  "name": "isubat/loadbalancer",
+  "type": "library",
+  "description": "Test task - load balancer",
+  "authors": [
+    {
+      "name": "Ilya Subat",
+      "email": "subbotilia@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-http": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LoadBalancer\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
